@@ -6,23 +6,32 @@ var app = {}
 // Regions that define which page to show for each beacon.
 app.beaconRegions =
 [
+
+	
 	{
-		id: 'page-boat',
+		id: 'page-musik',
 		uuid:'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
-		major: 3560,
-		minor: 36810
+		major: 56506,
+		minor: 14941
 	},
+
+
+
 	{
-		id: 'page-castle',
+		id: 'page-konsthallen',
 		uuid:'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
-		major: 57356,
-		minor: 14220
+		major: 22460,
+		minor: 60720
 	},
+
+
+
+
 	{
-		id: 'page-food',
+		id: 'page-sporthallen',
 		uuid:'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
-		major: 57272,
-		minor: 20467
+		major: 64748,
+		minor: 20535
 	}
 ]
 
