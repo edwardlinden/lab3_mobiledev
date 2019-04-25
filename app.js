@@ -7,19 +7,19 @@ var app = {}
 app.beaconRegions =
 [
 	{
-		id: 'page-feet',
+		id: 'page-boat',
 		uuid:'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
 		major: 3560,
 		minor: 36810
 	},
 	{
-		id: 'page-shoulders',
+		id: 'page-castle',
 		uuid:'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
 		major: 57356,
 		minor: 14220
 	},
 	{
-		id: 'page-face',
+		id: 'page-food',
 		uuid:'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
 		major: 57272,
 		minor: 20467
@@ -114,7 +114,7 @@ app.didRangeBeaconsInRegion = function(pluginResult)
 	// The region identifier is the page id.
 	var pageId = pluginResult.region.identifier
 
-	//console.log('ranged beacon: ' + pageId + ' ' + beacon.proximity)
+	console.log('ranged beacon: ' + pageId + ' ' + beacon.proximity)
 
 	// If the beacon is close and represents a new page, then show the page.
 	if ((beacon.proximity == 'ProximityImmediate' || beacon.proximity == 'ProximityNear')
